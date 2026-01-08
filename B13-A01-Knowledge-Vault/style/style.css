@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* shared style  */
+.font-open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.logic{
+    margin-left: 120px ;
+    padding: 16px;
+}
+  .btn{
+    background-color: #469165;
+    border: none;
+    border-radius: 4px ;
+    padding: 12.5px 16px ;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: auto ;
+    margin-right: 120px ;
+    cursor: pointer;
+  }
+
+
+
+
+
+
+
+
+
+
+/* main style */
+header{
+    background-color: #FFFFFF;
+    
+}
+
+
+   nav{
+    width: 100%;
+    max-width: 1600px;
+    border: 1px solid red;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   }
+   .link{
+    display: flex;
+    list-style: none;
+    gap: 32px ;
+    padding: 32px ;
+    align-items: center;
+   }
+
+   .link a{
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    line-height: 152%;
+    color: #000000;
+   }
+
+   #banner{
+    width: 100%;
+    max-width: 1600px ;
+    margin: 0 auto ;
+    background:url(../assets/hero-bg.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    text-align: center;
+   }
+   #banner .banner-content{
+   padding: 115.5px 120px 179.5px ;
+   
+    
+   }
+   #banner .banner-content h6{
+    max-width: 229px ;
+    max-height: 35px;
+    margin: 0 auto;
+    margin-bottom: 16px ;
+    border: none;
+    border-radius: 1000px;
+    padding: 8px ;
+    background-color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400 ;
+    color:#469165 ;
+    gap: 6px ;
+    
+   }
+
+   #banner .banner-content h1 {
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 84px;
+    color: #FFFFFF;
+
+   }
+
+   #banner .banner-content h2 {
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 84px;
+    color: #30B868;
+    margin-bottom: 16px ;
+   }
+  #banner .banner-content p{
+    max-width: 1360px ;
+    font-size: 18px ;
+    line-height: 24px ;
+    font-weight: 400 ;
+    color: #FFFFFF;
+  }
