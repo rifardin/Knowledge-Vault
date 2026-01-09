@@ -122,4 +122,46 @@ header{
     line-height: 24px ;
     font-weight: 400 ;
     color: #FFFFFF;
+    /* margin-bottom: 32px ; */
   }
+  .play{
+    background-color: none  ;
+    border: none;
+    border-radius: 4px ;
+    padding: 16.5px 16px 16.5px 10px ;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: auto ;
+    margin-right: 120px ;
+    cursor: pointer;
+  }
+
+ .aorrow{
+  
+    background-color: #469165;
+    border: none;
+    border-radius: 4px ;
+    padding: 16.5px 10px 16.5px 16px ;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: auto ;
+   justify-content: center;
+    /* display: flex; */
+    cursor: pointer; 
+    /* margin: 16.5px 46px 16.5px 16px ; */
+ }
+ .section-button{
+  justify-content: center;
+  /* margin: 0 auto ; */
+  display: flex;
+  gap: 16px;
+  padding: 32px  ;
+ 
+ 
+ }
+ 
+  
+
+ 
