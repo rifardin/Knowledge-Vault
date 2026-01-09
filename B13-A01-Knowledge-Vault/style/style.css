@@ -228,3 +228,97 @@ header{
   gap: 24px ;
   justify-content: center;
  }
+
+
+
+ #left-image {
+  width: 85%;
+  max-width: 1360px;
+  margin: 0 auto ;
+ margin-top: 120px ;
+  justify-content: center;
+  
+  
+ }
+
+
+ #left-image .one-image {
+  display: flex;
+  gap: 60px ;
+ }
+
+ .left-image-content{
+  margin-top: 120px  ;
+ }
+ .left-image-content h5{
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px ;
+  color: #469165;
+ }
+ .left-image-content h1{
+  width: 700px ;
+  height: 116px ;
+  font-size: 48px ;
+  font-weight: bold;
+  line-height: 45px;
+  color: #001931;
+  margin-top: 16px ;
+ }
+ .left-image-content p{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #627382;
+  margin-bottom: 40px ;
+ }
+
+ .left-image-content h4 {
+  
+  align-items: center;
+  align-content: center;
+  display: flex;
+  margin-top: 16px;
+  gap: 6px ;
+  font-size: 16px;
+  font-weight: 500 ;
+  line-height: 20px ;
+  
+ }
+ #challenge{
+  width: 80%;
+  max-width: 1600px ;
+  margin: 0 auto;
+  margin-top: 120px;
+  text-align: center;
+  background-color: #F7F6F2;
+ }
+ #challenge h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #001931;
+  margin-bottom: 16px ;
+  padding-top: 80px ;
+  
+
+  
+ }
+#challenge p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #627382;
+    line-height: 24px ;
+    margin-bottom: 24px ;
+    
+  }
+  #challenge h6{
+    font-size: 16px ;
+    font-weight: 400 ;
+    line-height: 20px ;
+    color: #627382;
+    margin: 16px  ;
+    /* margin-bottom: 80px ; */
+    padding-bottom: 80px;
+  }
+
+
