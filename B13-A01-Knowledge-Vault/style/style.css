@@ -27,6 +27,17 @@
     cursor: pointer;
   }
 
+  .btn:hover  {
+    background-color: rgba(222, 184, 135, 0.438);
+  }
+
+  .play:hover ,.aorrow:hover {
+    background-color: rgba(222, 184, 135, 0.438);
+  }
+
+
+
+
    #section-card h1{
   font-size: 48px;
   font-weight: bold;
