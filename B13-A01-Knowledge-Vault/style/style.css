@@ -27,6 +27,59 @@
     cursor: pointer;
   }
 
+   #section-card h1{
+  font-size: 48px;
+  font-weight: bold;
+  line-height: auto ;
+  color: #001931;
+  padding-top: 44px;
+ }
+ #section-card h6{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px ;
+  color: #627382;
+ }
+ #section-card .card{
+  width: 322px ;
+  height: 300px ;
+  /* border: 1px solid red ; */
+  box-shadow: 0 0 8px 0 #0000001e;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  margin-top: 44px ;
+
+ }
+
+ .image-circle{
+  background: #F95555;
+  width: 60px ;
+  height: 60px ;
+  border: none;
+  border-radius: 50% ;
+  justify-content: center;
+  align-content: center;
+  margin: 0 auto;
+  margin-top: 69.5px ;
+  
+ }
+ #section-card .card h3{
+  font-size: 24px;
+  font-weight: 600 ;
+  line-height: auto ;
+  color: #001931;
+  margin-top: 16px ;
+ }
+
+#section-card .card h6{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #627382;
+  margin: 16px 24px 69.5px 24px ;
+}
+
 
 
 
@@ -81,7 +134,7 @@ header{
     text-align: center;
    }
    #banner .banner-content{
-   padding: 115.5px 120px 179.5px ;
+   padding-top: 125.5px ;
    
     
    }
@@ -122,11 +175,11 @@ header{
     line-height: 24px ;
     font-weight: 400 ;
     color: #FFFFFF;
-    /* margin-bottom: 32px ; */
+    margin: 0 auto ;
   }
   .play{
-    background-color: none  ;
-    border: none;
+    background: none  ;
+    border: 1px solid white;
     border-radius: 4px ;
     padding: 16.5px 16px 16.5px 10px ;
     color: #FFFFFF;
@@ -148,20 +201,30 @@ header{
     font-weight: 600;
     line-height: auto ;
    justify-content: center;
-    /* display: flex; */
     cursor: pointer; 
-    /* margin: 16.5px 46px 16.5px 16px ; */
  }
  .section-button{
   justify-content: center;
-  /* margin: 0 auto ; */
+  margin-top: 32px ;
   display: flex;
   gap: 16px;
-  padding: 32px  ;
- 
+  padding-bottom: 179.5px;
+  padding-left: 447.5px ;
+  padding-right: 447.5px;
  
  }
- 
-  
 
- 
+ #section-card{
+  background-color: #FFFFFF;
+  width: 100%;
+  max-width: 1600px ;
+  margin: 0 auto;
+  text-align: center;
+ }
+
+
+ .card-container{
+  display: flex;
+  gap: 24px ;
+  justify-content: center;
+ }
