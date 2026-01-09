@@ -136,7 +136,7 @@ header{
     width: 100%;
     max-width: 1600px ;
     margin: 0 auto ;
-    background:url(../assets/hero-bg.png);
+    background:url("../assets/hero-bg.png");
     height: 100vh;
     background-size: cover;
     background-position: center;
