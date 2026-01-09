@@ -5,8 +5,8 @@
 }
 
 /* shared style  */
-.font-open-sans {
-  font-family: "Open Sans", sans-serif;
+.font-inter {
+  font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
 }
 
@@ -216,8 +216,8 @@ header{
 
  #section-card{
   background-color: #FFFFFF;
-  width: 100%;
-  max-width: 1600px ;
+  width: 85%;
+  max-width: 1360px ;
   margin: 0 auto;
   text-align: center;
  }
@@ -286,8 +286,8 @@ header{
   
  }
  #challenge{
-  width: 100%;
-  max-width: 1380px ;
+  width: 85%;
+  max-width: 1360px ;
   margin: 0 auto;
   margin-top: 120px;
   text-align: center;
@@ -353,7 +353,7 @@ header{
     font-weight: 500 ;
     line-height: 28px ;
     color: #FFFFFF ;
-    margin-bottom: 6px ;
+    margin-bottom: 20px ;
   }
   
   .i-circle{
